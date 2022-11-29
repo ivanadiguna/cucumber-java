@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         junit = "--step-notifications",
         plugin = {"pretty", "json:target/cucumber.json"},
         features = "src/test/resources/features/",
-        tags = {"@explorePage"})
+        tags = {"@YoutubeMusic"})
 public class CucumberRunner {
 
 
